@@ -1,5 +1,5 @@
 ### TITANIC Project
-This project is about creating a Machine Learning model on the Titanic dataset. It provides information about passengers on the Titanic, summarized by status, sex, age and survival.
+This project is about  creating a Machine Learning model on the Titanic dataset. It provides information about passengers on the Titanic, summarized by status, sex, age and survival.
 
 I downloaded Datasets of this post from kaggle.com. In this project, I want to predict whether a passenger on the titanic would have survived or not.
 
