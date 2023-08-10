@@ -1,21 +1,53 @@
-### TITANIC Project
-This project is about  creating a Machine Learning model on the Titanic dataset. It provides information about passengers on the Titanic, summarized by status, sex, age and survival.
+# Titanic Survival Prediction Project
 
-I downloaded Datasets of this post from kaggle.com. In this project, I want to predict whether a passenger on the titanic would have survived or not.
+![Titanic](images/titanicillustration.jpg) <!-- Add an image related to your project -->
 
-But first, I added some errors in train dataset to introduce a few examples of Data Engineering challenges. Then I combined Train and Test Datasets together. So the Dataset that I uploaded here is different to the original Dataset on kaggle.
+## Overview
 
-This project progress contains:
+This repository contains my analysis and machine learning model for predicting survival on the Titanic based on passenger data. The project was completed as part of my journey in data science. The analysis covers data preprocessing, exploratory data analysis (EDA), feature engineering, model selection, and evaluation.
 
-1- Data Governance: 
-    
-    In this step, we checked the data for any errors or invalid values and solved them in different ways depending on the data types. This is a regular task for Data Engineers. 
+## Project Structure
 
-2- Exploratory Data Analysis and Data preprocessing:
+- `data/`: Folder containing the dataset files.
+- `notebooks/`: Jupyter notebooks containing the analysis, visualization, and model development.
+- `images/`: Images and visualizations used in this README.
+- `README.md`: The file you're reading right now.
 
-    In this step, we analyzed the data visually which helped us to understand every attribute better. we checked missing values and computed them. we found relations between attributes. We bonded categorical attributes to numeric categories, and also, categorized numerical attributes. Also, we create new attributes based on available attributes. In this process, we used matplotlib and seaborn for visualization. 
+## Getting Started
 
-3- Machine Learning:
+1. Clone this repository: `git clone https://github.com/karrabi/titanic-project.git`
+2. Navigate to the repository: `cd titanic-project`
 
-    In this step, we trained 4 machine learning models, tried to optimize hyperparameters, computed accuracy, precision, and f1-score, compared models' results, and chose the best one. then we looked at the attributes' importance and K-fold cross-validation for the chosen model.
+## Notebooks
 
+1. `notebooks/project_titanic_data_preparation.ipynb`: Data loading, cleaning, and handling missing values. 
+2. `notebooks/project_titanic_EDA.ipynb`: Visual exploration of data distribution and relationships.
+2. `notebooks/project_titanic_ml.ipynb`: Building and evaluating machine learning models.
+
+## Technologies Used
+
+- Python
+- Jupyter Notebook
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Scikit-learn
+
+## Results
+
+Summarize key insights and results from your analysis here.
+
+## Future Enhancements
+
+Outline potential improvements you could make to the project in the future.
+
+## Acknowledgments
+
+Give credit to any resources, tutorials, or inspiration you used during the project.
+
+## Contact
+
+Feel free to contact me at a.karrabi@email.com.
+
+---
+
+**Note:** This project is for educational purposes and may contain code from tutorials, courses, or other sources.
